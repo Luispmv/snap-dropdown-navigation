@@ -322,10 +322,14 @@ main .logos{
         grid-template-columns: repeat(2,1fr);
     }
     main section{
+        display: flex;
+        flex-direction: column;
         place-items: flex-start;
         grid-row: 1;
         width: 100%;
         gap: 50px;
+        height: 100%;
+        justify-content: flex-end
     }
     main section h1{
         text-align: start;
