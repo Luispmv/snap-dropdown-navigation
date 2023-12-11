@@ -36,6 +36,7 @@ header .nav-mobile{
     width: 90%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav-mobile .menu-icon{
     width: 32px;
@@ -179,6 +180,9 @@ main .logos{
         width: 90%;
         justify-content: space-between;
         align-items: center;
+        height: -webkit-fill-available;
+        position: fixed;
+        background-color: var(--snapWhite);
     }
     .nav-desktop .nav-leftSide{
         display: flex;
